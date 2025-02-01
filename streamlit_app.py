@@ -165,13 +165,13 @@ def interpret_query(query, df):
 
 # Main function for Streamlit
 def main():
-    st.title("Data Analysis and Visualization")
+    st.title("Deep Statistical Analysis")
 
     # File upload
     uploaded_file = st.file_uploader("Upload your CSV or Excel file", type=["csv", "xls", "xlsx"])
 
     # Ask a question section first
-    query = st.text_input("Ask a question about your data:")
+    query = st.text_input("Ask a question about your data after uploading your data:")
 
     if uploaded_file is not None:
         df = load_data(uploaded_file)
