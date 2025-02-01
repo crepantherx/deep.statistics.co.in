@@ -5,3 +5,4 @@ seaborn~=0.13.2
 plotly~=6.0.0
 streamlit~=1.41.1
 scipy~=1.15.1
+statsmodels~=0.14.4
